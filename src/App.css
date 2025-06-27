@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "YapariTrial";
+  src: url("assets/fonts/YapariTrial-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Gantari";
+  src: url("assets/fonts/Gantari-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "GantariRegular";
+  src: url("assets/fonts/Gantari-Regular.ttf") format("truetype");
+}
+
+@theme {
+  --font-yapari: "YapariTrial", sans-serif;
+  --font-gantari: "Gantari", sans-serif;
+  --font-gantari-regular: "GantariRegular", sans-serif;
+}
